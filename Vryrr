@@ -25,6 +25,7 @@ local Window = Rayfield:CreateWindow({
 	}
 })
 local Tab = Window:CreateTab("World", 4483362458)
+local Paragraph = Tab:CreateParagraph({Title = "Test Your Scripts", Content = "Basically a place where you test your scripts on a map around you - https://www.roblox.com/games/11272090554/AnarchyLabs"})
 local Section = Tab:CreateSection("Move Parts")
 local Button = Tab:CreateButton({
 	Name = "Telekinesis",
@@ -759,6 +760,8 @@ end,
 loadstring(game:HttpGet("https://pastebin.com/raw/7GmZyarT", true))()
 end,
 })
+
+
 
 
 
