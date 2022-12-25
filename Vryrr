@@ -1,0 +1,771 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Window = Rayfield:CreateWindow({
+	Name = "Vryrr",
+	LoadingTitle = "Loading titles these days…",
+	LoadingSubtitle = "by ethistic.flarum.cloud / HappyHunter#2390",
+	ConfigurationSaving = {
+		Enabled = true,
+		FolderName = nil, -- Create a custom folder for your hub/game
+		FileName = "Big Hub"
+	},
+        Discord = {
+        	Enabled = false,
+        	Invite = "sirius", -- The Discord invite code, do not include discord.gg/
+        	RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+        },
+	KeySystem = false, -- Set this to true to use our key system
+	KeySettings = {
+		Title = "Vryrr Hub",
+		Subtitle = "Key System",
+		Note = "ethistic.flarum.cloud",
+		FileName = "VryrrKey",
+		SaveKey = true,
+		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+		Key = "Vryrr"
+	}
+})
+local Tab = Window:CreateTab("World", 4483362458)
+local Section = Tab:CreateSection("Move Parts")
+local Button = Tab:CreateButton({
+	Name = "Telekinesis",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/ZCuzD82x", true))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "FE Btools",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts/main/FE%20BTools(UPDATE1).lua", true))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Car Tornado",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRareOcelot/test/main/Car%20Tornado", true))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Attach To Part",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRareOcelot/test/main/Attach%20To%20Part", true))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "OP Unanchored GUI",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/2xA9xeZv", true))()
+	end,
+})
+local Section = Tab:CreateSection("Useful/OP")
+local Button = Tab:CreateButton({
+ Name = "Grab Tools",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TheRareOcelot/test/main/Grab%20Tools', true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Oof Spammer",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/JaMbzp0B", true))()
+
+end,
+})
+local Button = Tab:CreateButton({
+	Name = "Grab All (Tool Needed)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/qqGr4szr", true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "NPC Controller",
+	Callback = function()
+      		loadstring(game:HttpGet("https://controlc.com/30ddc8ba/fullscreen.php?hash=9e61dbc7296ef31f6599b241286f8e3b&toolbar=true&linenum=false"))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Hats On a Leash",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRareOcelot/test/main/Hat%20On%20A%20Leash"))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Tools On a Leash",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRareOcelot/test/main/Tools%20On%20a%20Leash"))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Raybeam",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRareOcelot/test/main/Raybeam"))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Drop Tools",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/RoboGrape/dropbuttongui/main/dropitemgui"))()
+end,
+})
+local Section = Tab:CreateSection("Chat")
+local Button = Tab:CreateButton({
+ Name = "Enable Bubble Chat",
+	Callback = function()
+      		game.Chat.BubbleChatEnabled = true
+end,
+})
+local Button = Tab:CreateButton({
+	Name = "Chat Art",
+	Callback = function()      		loadstring(game:HttpGet("https://raw.githubusercontent.com/omegachadgaming/mongus/main/main.lua", true))()
+  	end,
+})
+local Section = Tab:CreateSection("Hats")
+local Button = Tab:CreateButton({
+	Name = "OP Hat GUI",
+	Callback = function()
+loadstring(game:HttpGet("https://ssbtools.netlify.app/assets/storage/LOADSTRING_SCRIPT2.txt"))()
+end,
+})
+local Button = Tab:CreateButton({
+	Name = "Floating Hats/Hat Orbit",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/4B4fktPS", true))()
+end,
+})
+local Button = Tab:CreateButton({
+            Name = "Hold Your Hats",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/6nXuRhVV", true))()
+end,
+})
+local Button = Tab:CreateButton({
+            Name = "Eat Your Hats",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/6nXuRhVV", true))()
+end,
+})
+
+
+local Button = Tab:CreateButton({
+	Name = "Giant Hats",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/QsCPxEEC", true))()
+end,
+})
+local Button = Tab:CreateButton({
+            Name = "Drop Hats",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/QsCPxEEC", true))()
+end,
+})
+
+local Section = Tab:CreateSection("Other")
+local Button = Tab:CreateButton({
+ Name = "Click to TP",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/VQ4UKaZu"))()
+end,
+})
+local Button = Tab:CreateButton({
+	Name = "VR",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/qqGr4szr", true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Display Name Remover",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRareOcelot/test/main/Display%20Name%20Remover", true))() 
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Fire All Click Detectors",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/0Crf1y1j", true))() 
+end,
+})
+local Button = Tab:CreateButton({
+	Name = "Autoclicker",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheRareOcelot/test/main/Autoclicker')))() 
+end,
+})
+local Section = Tab:CreateSection("Utility")
+
+local Button = Tab:CreateButton({
+ Name = "Empty Server Finder",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/aASY68Ns", true))() 
+end,
+})
+local Button = Tab:CreateButton({
+	Name = "Anti AFK",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/sDXcYFhR", true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "FPS Booster",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/VSjtWEDe", true))() 
+end,
+})
+local Button = Tab:CreateButton({
+	Name = "Rejoin Game",
+	Callback = function()
+game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
+end,
+})
+
+local Tab = Window:CreateTab("Player", 4483362458)
+local Section = Tab:CreateSection("Walkspeed")
+local Slider = Tab:CreateSlider({
+	Name = "Walkspeed",
+	Range = {0, 200},
+	Increment = 10,
+	Suffix = "Walkspeed",
+	CurrentValue = 10,
+	Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end,
+})
+local Input = Tab:CreateInput({
+	Name = "Walkspeed (Setter)",
+	PlaceholderText = "Speed",
+	RemoveTextAfterFocusLost = false,
+	Callback = function(Text)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Text
+
+	end,
+})
+local Section = Tab:CreateSection("Jumppower")
+local Slider = Tab:CreateSlider({
+	Name = "JumpPower",
+	Range = {0, 200},
+	Increment = 10,
+	Suffix = "JumpPower",
+	CurrentValue = 10,
+	Flag = "Slider2", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+	end,
+})
+local Input = Tab:CreateInput({
+	Name = "JumpPower (Setter)",
+	PlaceholderText = "Power",
+	RemoveTextAfterFocusLost = false,
+	Callback = function(Text)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Text
+
+	end,
+})
+local Section = Tab:CreateSection("Main")
+local Button = Tab:CreateButton({
+	Name = "Fly",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iamtryingtofindname/AWP/main/Misc/FlyFE.lua"))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Invisibility",
+	Callback = function()
+      	loadstring(game:HttpGet(('https://pastebin.com/raw/0wE8rKJ1')))()
+end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Noclip",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/SYXmgUzm"))()
+
+end,
+})
+local Button = Tab:CreateButton({
+	Name = "God Mode",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/xGuYssSc"))()
+end,
+})
+
+
+
+local Section = Tab:CreateSection("More")
+local Button = Tab:CreateButton({
+	Name = "Infinity Jump",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRareOcelot/test/main/Infinity%20Jump"))()
+end,
+})
+
+
+local Button = Tab:CreateButton({
+ Name = "Levitate",
+	Callback = function()
+      		  game.Players.LocalPlayer.Character.Humanoid.HipHeight = 3
+end,
+})
+local Toggle = Tab:CreateToggle({
+	Name = "Rotate",
+	CurrentValue = true,
+	Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.AutoRotate = Value
+	end,
+})
+local Toggle = Tab:CreateToggle({
+	Name = "Stand",
+	CurrentValue = false,
+	Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.PlatformStand = Value
+	end,
+})
+local Button = Tab:CreateButton({
+ Name = "Netless Bypass",
+	Callback = function()
+      		  loadstring(game:HttpGet("https://pastebin.com/raw/DUc29mew", true))()
+end,
+})
+local Section = Tab:CreateSection("HipHeight")
+local Slider = Tab:CreateSlider({
+	Name = "HipHeight",
+	Range = {0, 200},
+	Increment = 10,
+	Suffix = "HipHeight",
+	CurrentValue = 10,
+	Flag = "Slider3", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.HipHeight = Value
+	end,
+})
+
+
+local Section = Tab:CreateSection("Fun")
+
+
+local Button = Tab:CreateButton({
+ Name = "Spiderman",
+	Callback = function()   	loadstring(game:HttpGet(('https://raw.githubusercontent.com/ItsDishan/SpidermanScript/main/Spider-Man'), true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Walk On Walls",
+	Callback = function()
+      		 loadstring(game:HttpGet("https://pastebin.com/raw/5T7KsEWy", true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Get Controlled",
+	Callback = function()
+      		  loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheRareOcelot/test/main/ontolr')))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Fake Lag V2",
+	Callback = function()
+      		  loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheRareOcelot/test/main/Fake%20Lag')))() end,
+})
+local Button = Tab:CreateButton({
+ Name = "Up and Down",
+	Callback = function()
+      		  loadstring(game:HttpGet(('https://pastebin.com/raw/16NcvmHZ')))()
+end,
+})
+local Tab = Window:CreateTab("Avatar", 4483362458)
+local Section = Tab:CreateSection("Netless Bypass")
+local Button = Tab:CreateButton({
+ Name = "Netless Bypass",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/DUc29mew", true))()
+end,
+})
+
+local Section = Tab:CreateSection("Limbs")
+local Button = Tab:CreateButton({
+	Name = "Headless",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheRareOcelot/test/main/R15')))() 
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Long Legs",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/2vbYR75P", true))()
+end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Blockhead",
+	Callback = function()
+game.Players.LocalPlayer.Character.Head.Mesh:Remove()
+
+end,
+})
+local Section = Tab:CreateSection("Morphs")
+local Button = Tab:CreateButton({
+ Name = "Be a Wall",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/AY6kA2AV", true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Be a chair",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/uN6c86e1", true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Be a table",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/9kDrHnUd", true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Be a Creeper",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/GDKYs5Ec",true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Be a ball",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/EJskzezp", true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Be a Cube",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/RpJbS0Pu'),true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Among Us",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TheRareOcelot/test/main/'))()
+end,
+})
+
+local Button = Tab:CreateButton({
+ Name = "Spider",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/txsk1LJg", true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Snake",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastefy.ga/tWBTcE4R/raw'),true))() 
+end,
+})
+
+local Tab = Window:CreateTab("Combat", 4483362458)
+local Section = Tab:CreateSection("Flings")
+local Button = Tab:CreateButton({
+ Name = "Fling Gui",
+	Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Loop Fling",
+	Callback = function()
+loadstring(game:HttpGet('https://github.com/DigitalityScripts/roblox-scripts/raw/main/loop fling all'))()
+end,
+})
+   local Button = Tab:CreateButton({
+ Name = "Mouse Fling",
+	Callback = function()
+loadstring(game:HttpGet'https://pastebin.com/raw/E0h4VGCy')()
+end,
+})
+   local Button = Tab:CreateButton({
+ Name = "Anti Fling",
+	Callback = function()
+loadstring(game:HttpGet'https://pastebin.com/raw/H07STWSQ')()
+end,
+})
+local Section = Tab:CreateSection("Helpful")
+   local Button = Tab:CreateButton({
+ Name = "ESP",
+	Callback = function()
+loadstring(game:HttpGet'https://ic3w0lf.xyz/rblx/protoesp.lua')()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Aimbot",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-Script/main/Aimbot%20Script.lua", true))()
+end,
+})
+   local Button = Tab:CreateButton({
+ Name = "Radar",
+	Callback = function()
+loadstring(game:HttpGet'https://controlc.com/50b7457e/fullscreen.php?hash=36a57eae90be9752299194b010029a46&toolbar=true&linenum=false')()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Hitbox Expander",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/CJwMs6ch", true))()
+end,
+})
+
+
+
+local Section = Tab:CreateSection("Deadly")
+local Button = Tab:CreateButton({
+	Name = "Grandmaster",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRareOcelot/test/main/Grandmaster"))()
+end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "FE Kill",
+	Callback = function()      		loadstring(game:HttpGet("https://github.com/TheRareOcelot/test/blob/main/ea", true))()
+  	end    
+})
+local Button = Tab:CreateButton({
+ Name = "SCP 173",
+	Callback = function()
+loadstring(game:HttpGet("https://shattered-gang.lol/scripts/fe/fe_scp_173.lua"))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Annoy Gui V2",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRareOcelot/test/main/Annoy%20Gui%20V2", true))()
+end,
+})
+
+
+
+local Tab = Window:CreateTab("Animations", 4483362458)
+local Section = Tab:CreateSection("Netless Bypass")
+local Button = Tab:CreateButton({
+ Name = "Netless Bypass",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/DUc29mew", true))()
+end,
+})
+local Section = Tab:CreateSection("Animations")
+local Button = Tab:CreateButton({
+ Name = "R6 Animations",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/qbexdLb3", true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "R15 Animations",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/x9BkBh0m", true))()
+end,
+})
+local Section = Tab:CreateSection("Popular")
+local Button = Tab:CreateButton({
+ Name = "Take The L",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/VkWkuyzc", true))()
+end,
+})
+
+local Button = Tab:CreateButton({
+ Name = "Default Dance",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/iXAe7Fub", true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Retard Dance",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/5ddwJ7tP", true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Boogie Dance",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/6DzXfYzy", true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Flip (E)",
+	Callback = function()
+      		  loadstring(game:HttpGet(('https://pastebin.com/raw/8f2B8iPc')))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = ":joy:",
+	Callback = function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/LEAQuKj0"))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Sonic",
+	Callback = function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/SyF5t70A"))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Xester",
+	Callback = function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/RPwyPvEi"))()
+end,
+})
+local Section = Tab:CreateSection("Meme Dances")
+local Button = Tab:CreateButton({
+ Name = "Meme Dances",
+	Callback = function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/0QfjMKrF"))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Better Meme Dances",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/FV3HLmTH", true))()
+end,
+})
+local Section = Tab:CreateSection("More")
+local Button = Tab:CreateButton({
+ Name = "Annoy Gui",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/1cHdCvTF"))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Dog",
+	Callback = function()
+loadstring(game:HttpGetAsync("https://pastebin.com/8fS6iYmJ"))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Chill",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/CdDw1CUw'),true))()
+end,
+})
+local Tab = Window:CreateTab("Hat Scripts", 4483362458)
+local Section = Tab:CreateSection("Hat Scripts")
+local Button = Tab:CreateButton({
+ Name = "Sniper",
+	Callback = function()
+loadstring(game:HttpGetAsync("https://pastebin.com/6uyKdbd6"))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Minigun",
+	Callback = function()
+loadstring(game:HttpGetAsync("https://pastebin.com/kGA4WWSm"))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name ="Scp Zero Ninety Six",
+	Callback = function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/WHW6WH3R"))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Blue Epic Sword",
+	Callback = function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/eEaybFj9"))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Yellow Epic Sword",
+	Callback = function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/gYQtLsE2"))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name ="Kanata",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yt-flix/katana/main/katanalua", true))()
+end,
+})
+local Tab = Window:CreateTab("Admin", 4483362458)
+local Section = Tab:CreateSection("Admins")
+local Button = Tab:CreateButton({
+ Name = "Infinity Yield",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "CMD-X",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Reviz Admin",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/KNUzQPYS'),true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Homebrew Admin",
+	Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Fates Admin",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Shattervast",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/kRJnwPRG"))()
+end,
+})
+local Tab = Window:CreateTab("Utility", 4483362458)
+local Section = Tab:CreateSection("Game")
+local Button = Tab:CreateButton({
+ Name = "TP Gui",
+	Callback = function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/DagerFild/b4776075a0d26ef04394133ee6bd2081/raw/0ed51ac94057d2d9a9f00e1b037b9011c76ca54a/tpGUI", true))()
+end,
+})
+local Button = Tab:CreateButton({
+ Name = "Empty Server Finder",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/aASY68Ns", true))() 
+end,
+})
+local Section = Tab:CreateSection("Reanimate")
+   local Button = Tab:CreateButton({
+ Name = "Netless Bypass",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/DUc29mew", true))()
+end,
+})
+   local Button = Tab:CreateButton({
+ Name = "Reanimate Script",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/c5VxYv4p"))()
+end,
+})
+local Section = Tab:CreateSection("Development")
+   local Button = Tab:CreateButton({
+ Name = "Dex Explorer",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRareOcelot/test/main/Dex%20Explorer", true))()
+end,
+})
+   local Button = Tab:CreateButton({
+ Name = "Remote Spy",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/7GmZyarT", true))()
+end,
+})
+
+
+
+
+
+
+
+
+
+
